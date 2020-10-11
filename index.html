@@ -3,10 +3,260 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Modernist</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/Modernist.css">
 </head>
 <body>
-    <h1>Heroku static HTML/CSS Deployement Example</h1>
+  <!-- Header -->
+  <div class="nav-main">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+      <a class="navbar-brand" href="#"><h1 class="mr-5">The Modernist</h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ml-lg-5 text-center mt-3">
+          <li class="nav-item mx-4 mb-3">
+            <a class="nav-link"  href="#" class="mr-3">HOME <span class="sr-only">(current)</span></a>
+          </li>
+            <li class="nav-item mx-4 ">
+              <a class="nav-link" href="#"  class="mr-3" >APPOINTMENT <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#"  class="mr-3" >ABOUT <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#"  class="mr-3" >FACULITY <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#"  class="mr-3" >CONTACT <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+  
+      </div>
+  </div>
+    </nav>
+  </div>
+  <!-- Header -->
+  <!-- Slider -->
+  <div class="slider">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="container">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 text-center col-sm-12 col-12 my-5">
+                <div class="left my-5 mx-5">
+                  <h1>Great Building</h1>
+                  <p class="mt-4">The larget and the most impressive building in the entire city. <br>Build only for your servisesand for better environment.Your <br>health is our first priority. Anything that makes a progress in <br>your condition, we provide it.</p>
+                  <button class="py-2 px-3">Read More >></button>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="right my-3 mx-5">
+                  <div class="background">
+                    <div class="image py-4 px-4">
+                      <img src="./Images/City-Office-Door.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 col-12 my-5">
+                <div class="left my-5 ml-5">
+                  <h1>Best Surgeons</h1>
+                  <p class="mt-4">We have the best surgeons in the country. Performing the <br>seugery with perfection and exellency is another thing you <br>can expect from the best in the country and we are honoured <br>to provide you this facility in our hospital.</p>
+                  <button class="py-2 px-3">Read More >></button>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="right my-3 mx-5">
+                  <div class="background">
+                    <div class="image py-4 px-4">
+                      <img src="./Images/images.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 col-12 my-5">
+                <div class="left my-5 ml-5">
+                  <h1>Services</h1>
+                  <p class="mt-4">The care-taking of the patient is amoung the top priorities <br>of our hospital. We make sure that our patient is having <br>proper medicines at the appropriate time. Our staff is <br>working 24/7 so every patient will get attention to get <br>recover as soon as possible. </p>
+                  <button class="py-2 px-3">Read More >></button>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="right my-3 mx-5">
+                  <div class="background">
+                    <div class="image py-4 px-4">
+                      <img src="./Images/recovery.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>  
+    </div>
+  </div>
+  <!-- Slider -->
+  <!-- Services -->
+  <div class="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-5">
+                <div class="card">
+                    <img class="mx-5 px-3 mt-3" src="./Images/doctor.jpg" class="card-img-top"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Dr.Saqib Saleem</h5>
+                      <p class="card-text">Heart Surgeon / Heart Spealist</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-5">
+                <div class="card">
+                    <img class="mx-5 px-3 mt-3" src="./Images/doctor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Dr.Maryam Anwar</h5>
+                      <p class="card-text">Neuro Surgeon / Brain Spealist</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-5">
+                <div class="card">
+                    <img class="mx-5 px-3 mt-3" src="./Images/doctor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Dr.Bilal Bukhari</h5>
+                      <p class="card-text">Eye Surgeon / Eye Spealist</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-5">
+                <div class="card">
+                    <img class="mx-5 px-3 mt-3" src="./Images/doctor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Dr.Ayesha Qureshi</h5>
+                      <p class="card-text">Renal Surgeon / Kidney Spealist </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- Services -->
+  <!-- Machinery -->
+  <div class="mechinary">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center col-md-12 col-sm-12 col-12 my-5">
+          <h1 class="my-5">LATEST MECHINARY</h1>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mt-5 col-sm-6 col-12">
+              <div class="background">
+                <div class="image">
+                  <img src="./Images/22395802_3.jpg" alt="">
+                </div>
+              </div>  
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5 col-sm-6 col-12">
+              <div class="background">
+                <div class="image">
+                  <img src="./Images/ultrasound-machine.jpg" alt="">
+                </div>
+              </div>  
+            </div>
+            <div class="col-lg-4 col-md-12 mt-5 col-sm-6 col-12">
+              <div class="background">
+                <div class="image">
+                  <img src="./Images/MACHINE 1.jpg" alt="">
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center col-md-12 col-sm-12 col-12 mb-5">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+              <div class="background">
+                <div class="image">
+                  <img src="./Images/CT SCAN.jpg" alt="">
+                </div>
+              </div>  
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5 col-sm-6 col-12">
+              <div class="background">
+                <div class="image">
+                  <img src="./Images/ANGIOGRAPHY.jpeg" alt="">
+                </div>
+              </div>  
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-6 col-12">
+              <div class="background">
+                <div class="image">
+                  <img src="./Images/EMR.jpg" alt="">
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- Machinery -->
+  <!-- Contact Us -->
+  <div class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12 text-center my-4">
+          <div class="left">
+            <a class="mx-3" href="#"><i class="far fa-envelope mx-2"></i>furiousali1234@gmail.com</a><br><br>
+            <a href="#"><i class="fas fa-phone mx-2"></i>+92-334-9711787</a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12 text-center my-5">
+          <div class="right">
+            <a class="mx-3" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="mx-3" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="mx-3" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="mx-3" href="#"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact Us -->
+
+
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/09f27a2ed9.js" crossorigin="anonymous"></script> 
 </body>
 </html>
