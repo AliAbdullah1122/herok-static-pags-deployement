@@ -1,0 +1,163 @@
+.nav-main {
+    background-color: #290000;
+  }
+  
+  .nav-main .navbar .navbar-brand h1 {
+    font-family: Georgia;
+    font-size: 28px;
+    color: white;
+  }
+  
+  .nav-main .navbar .nav-link {
+    font-family: Georgia;
+    font-size: 13px;
+    color: white;
+  }
+  
+  .nav-main .navbar .nav-link:hover {
+    background-color: #76c38f;
+    border-radius: 10px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  
+  .slider {
+    text-align: center;
+    background-color: #290000;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .slider .container .row .left h1 {
+    font-family: Georgia;
+    font-size: 46px;
+    color: white;
+  }
+  
+  .slider .container .row .left p {
+    font-family: Georgia;
+    font-size: 12px;
+    color: white;
+  }
+  
+  .slider .container .row .left button {
+    font-family: Georgia;
+    font-size: 13px;
+    color: white;
+    background-color: #76c38f;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .slider .container .row .right .background {
+    background-color: #6b6b6b;
+    height: inherit;
+    width: inherit;
+    border-radius: 100%;
+  }
+  
+  .slider .container .row .right .background .image img {
+    border-radius: 100%;
+    width: 100%;
+  }
+  
+  .services {
+    background-color: #660000;
+  }
+  
+  .services .container .row .card:hover {
+    background-color: #76c38f;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  
+  .services .container .row .card:hover .card-body .card-title {
+    font-family: Georgia;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  
+  .services .container .row .card:hover .card-body .card-text {
+    font-family: Georgia;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  
+  .services .container .row .card .card-body .card-title {
+    font-family: Georgia;
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .services .container .row .card .card-body .card-text {
+    font-family: Georgia;
+    font-size: 12px;
+    color: #979797;
+    text-align: center;
+  }
+  
+  .mechinary {
+    background-color: #660000;
+  }
+  
+  .mechinary .container .row h1 {
+    font-family: Georgia;
+    font-size: 28px;
+    color: white;
+  }
+  
+  .mechinary .container .row .background .image img {
+    height: inherit;
+    border: 5px solid white;
+    height: 190px;
+    width: 290px;
+  }
+  
+  .mechinary .container .row .background .image P {
+    background-color: black;
+    color: white;
+    font-family: Georgia;
+    font-size: 14px;
+    width: 280px;
+    text-align: center;
+    position: absolute;
+    margin-left: 35px;
+    margin-top: -25px;
+  }
+  
+  .mechinary .container .row .background .image:hover img {
+    border: 5px solid #76c38f;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .mechinary .container .row .background .image:hover p {
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .contact {
+    background-color: black;
+  }
+  
+  .contact .container .row .left a {
+    text-decoration: none;
+    color: #76c38f;
+  }
+  
+  .contact .container .row .right a i {
+    color: #76c38f;
+  }
+  /*# sourceMappingURL=Modernist.css.map */

@@ -1,0 +1,22 @@
+.nav-main{
+    background-color: #290000;
+    .navbar{
+        .navbar-brand{
+            h1{
+            font-family: Georgia;
+            font-size: 28px;
+            color: white;
+            }
+        }
+        .nav-link{
+            font-family: Georgia;
+            font-size: 13px;
+            color: white;
+            &:hover{
+                background-color: #76c38f;
+                border-radius: 10px;
+                transition: 0.6s;
+            }
+        }
+    }
+}
